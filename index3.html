@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALL STACK</title>
+</head>
+<body>
+    <h1> JS FUNCTIONS </h1>
+    <p id="result"></p>
+    <script>
+        function add(a, b) {
+            return a + b;
+    
+        function average(a, b) {
+            return add(a, b) /2;
+          }
+          let results = average(10,20);
+          document.getElementById("result").innerHTML = results;
+    </script>
+</body>
+</html>
